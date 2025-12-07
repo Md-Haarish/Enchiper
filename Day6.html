@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Tasks</title>
+  </head>
+  <body>
+    <h1>1. Simple table with 3 rows and 3 columns.</h1>
+    <table border="1">
+      <tr>
+        <th>Name</th>
+        <th>Java</th>
+        <th>C++</th>
+      </tr>
+      <tr>
+        <td>Godwin</td>
+        <td>90</td>
+        <td>85</td>
+      </tr>
+      <tr>
+        <td>Balaji</td>
+        <td>92</td>
+        <td>87</td>
+      </tr>
+      <tr>
+        <td>Haarish</td>
+        <td>86</td>
+        <td>94</td>
+      </tr>
+    </table>
+
+    <hr />
+
+    <h1>2. Table with a header row containing Name, Age, City.</h1>
+    <table border="1">
+      <tr>
+        <th>Name</th>
+        <th>Age</th>
+        <th>City</th>
+      </tr>
+      <tr>
+        <td>Arjun</td>
+        <td>22</td>
+        <td>Chennai</td>
+      </tr>
+      <tr>
+        <td>Karthik</td>
+        <td>23</td>
+        <td>Tiruppur</td>
+      </tr>
+      <tr>
+        <td>Ramesh</td>
+        <td>21</td>
+        <td>Bangalore</td>
+      </tr>
+    </table>
+
+    <hr />
+
+    <h1>3. Table using the border, cellpadding, and cellspacing attributes.</h1>
+    <table border="1" cellpadding="10" cellspacing="5">
+      <tr>
+        <th>Product</th>
+        <th>Quantity</th>
+        <th>Price</th>
+      </tr>
+      <tr>
+        <td>Notebook</td>
+        <td>15</td>
+        <td>$10</td>
+      </tr>
+      <tr>
+        <td>Pencil</td>
+        <td>20</td>
+        <td>$5</td>
+      </tr>
+      <tr>
+        <td>Bottle</td>
+        <td>8</td>
+        <td>$7</td>
+      </tr>
+    </table>
+
+    <hr />
+
+    <h1>4. Table where one cell uses colspan to merge two columns.</h1>
+    <table border="1" cellpadding="10" cellspacing="5">
+      <tr>
+        <th>Product</th>
+        <th>Price</th>
+        <th>Quantity</th>
+      </tr>
+      <tr>
+        <td rowspan="2">Laptop</td>
+        <td colspan="2">Special Offer - Combo Pack</td>
+      </tr>
+      <tr>
+        <td>₹60,000</td>
+        <td>1 Unit</td>
+      </tr>
+    </table>
+
+    <hr />
+
+    <h1>5. Table where one cell uses rowspan to merge two rows.</h1>
+    <table border="1" cellpadding="10" cellspacing="5">
+        <tr>
+            <th>Product</th><th>Price</th><th>Quantity</th>
+        </tr>
+        <tr>
+            <td>Laptop</td><td rowspan="2">₹35,000</td><td>1 Unit</td>
+        </tr>
+        <tr>
+            <td>Smartphone</td><td>2 Units</td>
+    </table>
+     
+    <hr />
+
+    <h1>6. Product list table with columns: Product Image, Name, Price.</h1>
+    <table border="1" cellpadding="10" cellspacing="5">
+        <tr>
+            <th>Product Image</th><th>Name</th><th>Price</th>
+        </tr>
+        <tr>
+            <td><img src="https://imgs.search.brave.com/6w8zvBKfWqlW5xL3GZJ1ldO3GQZwT2eNkr1_H5t0P30/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/ZnJlZS1waG90by9i/YWRnZXItcGFja2Fn/ZS1oZWFkcGhvbmVz/LmpwZw" width="150" height="150"></td><td>Headphone</td><td>₹999</td>
+        </tr>
+    </table>
+
+    <hr>
+
+    <h1>7. Table with 5 rows and apply background color only to the header.</h1>
+    <table border="1" cellpadding="10" cellspacing="5">
+        <tr>
+            <th style="background-color: aqua;">Name</th><th style="background-color: aquamarine;">Age</th><th style="background-color: coral;">Department</th>
+        </tr>
+        <tr>
+            <td>Arun</td><td>20</td><td>CSE</td>
+        </tr>
+        <tr>
+            <td>Balaji</td><td>21</td><td>AD</td>
+        </tr>
+        <tr>
+            <td>Chandru</td><td>22</td><td>IT</td>
+        </tr>
+        <tr>
+            <td>Dharun</td><td>20</td><td>CIVIL</td>
+        </tr>
+        <tr>
+            <td>Haarish</td><td>23</td><td>MECH</td>
+        </tr>
+    </table>
+
+    <hr>
+
+    <h1>8. Timetable for weekly classes (Monday to Saturday).</h1>
+    <table border="1" cellpadding="10" cellspacing="3">
+        <tr>
+            <th>Day</th>
+            <th>9:00 – 10:00</th>
+            <th>10:00 – 11:00</th>
+            <th>11:00 – 12:00</th>
+            <th>12:00 – 1:00</th>
+            <th>2:00 – 3:00</th>
+            <th>3:00 – 4:00</th>
+        </tr>
+
+        <tr>
+            <td>Monday</td>
+            <td>Maths</td>
+            <td>English</td>
+            <td>Physics</td>
+            <td>Break</td>
+            <td>Chemistry</td>
+            <td>Sports</td>
+        </tr>
+
+        <tr>
+            <td>Tuesday</td>
+            <td>Biology</td>
+            <td>Maths</td>
+            <td>Computer</td>
+            <td>Break</td>
+            <td>English</td>
+            <td>Library</td>
+        </tr>
+
+        <tr>
+            <td>Wednesday</td>
+            <td>Physics</td>
+            <td>Chemistry</td>
+            <td>Maths</td>
+            <td>Break</td>
+            <td>Computer</td>
+            <td>Sports</td>
+        </tr>
+
+        <tr>
+            <td>Thursday</td>
+            <td>English</td>
+            <td>Biology</td>
+            <td>Physics</td>
+            <td>Break</td>
+            <td>Maths</td>
+            <td>Art</td>
+        </tr>
+
+        <tr>
+            <td>Friday</td>
+            <td>Chemistry</td>
+            <td>Computer</td>
+            <td>Biology</td>
+            <td>Break</td>
+            <td>English</td>
+            <td>Sports</td>
+        </tr>
+
+        <tr>
+            <td>Saturday</td>
+            <td>Maths</td>
+            <td>Seminar</td>
+            <td>Computer</td>
+            <td>Break</td>
+            <td>Physics</td>
+            <td>Club Activity</td>
+        </tr>
+    </table>
+
+    <hr>
+
+    <h1>9. Table showing employee details and highlight the highest salary using the <mark> tag.</h1>
+    <h2>Employee Salary Table</h2>
+
+    <table border="1" cellpadding="10" cellspacing="3">
+        <tr>
+            <th>Name</th>
+            <th>Department</th>
+            <th>Salary</th>
+        </tr>
+
+        <tr>
+            <td>Balaji</td>
+            <td>IT</td>
+            <td>₹45,000</td>
+        </tr>
+
+        <tr>
+            <td>Haarish</td>
+            <td>HR</td>
+            <td>₹40,000</td>
+        </tr>
+
+        <tr>
+            <td>Ramesh</td>
+            <td>Finance</td>
+            <td><mark>₹55,000</mark></td>
+        </tr>
+    </table>
+
+    <hr>
+
+    <h1>10. Table with alternating row colors (even and odd rows).</h1>
+    <table border="1" cellpadding="10" cellspacing="0">
+        <tr style="background-color: lightgray;">
+            <th>Name</th>
+            <th>Department</th>
+            <th>Salary</th>
+        </tr>
+
+        <tr style="background-color: #f9a8a8;">
+            <td>Arun</td>
+            <td>IT</td>
+            <td>₹45,000</td>
+        </tr>
+
+        <tr style="background-color: #b3faed;">
+            <td>Meena</td>
+            <td>Finance</td>
+            <td>₹55,000</td>
+        </tr>
+
+        <tr style="background-color:  #f9a8a8;">
+            <td>Haarish</td>
+            <td>HR</td>
+            <td>₹40,000</td>
+        </tr>
+
+        <tr style="background-color: #b3faed;">
+            <td>Ravi</td>
+            <td>Admin</td>
+            <td>₹38,000</td>
+        </tr>
+    </table>
+
+    <hr>
+
+    <h1>11. Table showing countries and their flags (images in cells)</h1>
+    <h2>Countries and Flags</h2>
+    <table border="1" cellpadding="10">
+        <tr>
+            <th>Country</th>
+            <th>Flag</th>
+        </tr>
+
+        <tr>
+            <td>India</td>
+            <td><img src="https://flagcdn.com/w320/in.png" width="80"></td>
+        </tr>
+
+        <tr>
+            <td>USA</td>
+            <td><img src="https://flagcdn.com/w320/us.png" width="80"></td>
+        </tr>
+
+        <tr>
+            <td>Japan</td>
+            <td><img src="https://flagcdn.com/w320/jp.png" width="80"></td>
+        </tr>
+    </table>
+
+    <hr>
+
+    <h1>12. Nested Table (a table inside a cell)</h1>
+    <table border="1" cellpadding="10">
+        <tr>
+            <th>Name</th>
+            <th>Details</th>
+        </tr>
+
+        <tr>
+            <td>Haarish</td>
+            <td>
+                <table border="1" cellpadding="5">
+                    <tr>
+                        <th>Age</th>
+                        <th>City</th>
+                    </tr>
+                    <tr>
+                        <td>20</td>
+                        <td>Tiruppur</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+
+    <hr>
+
+    <h1>13. Order Summary Table (manual total calculation)</h1>
+    <h2>Order Summary</h2>
+
+    <table border="1" cellpadding="10">
+        <tr>
+            <th>Item Name</th>
+            <th>Quantity</th>
+            <th>Price</th>
+            <th>Total</th>
+        </tr>
+
+        <tr>
+            <td>Laptop</td>
+            <td>1</td>
+            <td>₹40,000</td>
+            <td>₹40,000</td>
+        </tr>
+
+        <tr>
+            <td>Mouse</td>
+            <td>2</td>
+            <td>₹500</td>
+            <td>₹1,000</td>
+        </tr>
+
+        <tr>
+            <td>Keyboard</td>
+            <td>1</td>
+            <td>₹800</td>
+            <td>₹800</td>
+        </tr>
+        <tr>
+            <th colspan="3">Final Total</th>
+            <th>₹41,800</th>
+        </tr>
+    </table>
+
+    <hr>
+
+    <h1>14. Comparison Table for Two Mobile Phones (using <b>, <i> formatting tags)</h1>
+    <h2>Mobile Phone Comparison</h2>
+
+    <table border="1" cellpadding="10">
+        <tr>
+            <th>Feature</th>
+            <th>Phone A</th>
+            <th>Phone B</th>
+        </tr>
+
+        <tr>
+            <td><b>Model</b></td>
+            <td><i>Samsung Galaxy A52</i></td>
+            <td><i>Redmi Note 12</i></td>
+        </tr>
+
+        <tr>
+            <td><b>RAM</b></td>
+            <td>6GB</td>
+            <td>8GB</td>
+        </tr>
+
+        <tr>
+            <td><b>Storage</b></td>
+            <td>128GB</td>
+            <td>128GB</td>
+        </tr>
+
+        <tr>
+            <td><b>Battery</b></td>
+            <td>4500mAh</td>
+            <td>5000mAh</td>
+        </tr>
+
+        <tr>
+            <td><b>Price</b></td>
+            <td><mark>₹22,000</mark></td>
+            <td><mark>₹18,000</mark></td>
+        </tr>
+    </table>
+
+    <hr>
+
+    <h1>15. Form using ALL input types</h1>
+    <h2>Complete HTML Form</h2>
+
+    <form>
+
+        Name: <input type="text" placeholder="Enter name"><br><br>
+
+        Password: <input type="password"><br><br>
+
+        Email: <input type="email"><br><br>
+
+        Age: <input type="number" min="1" max="100"><br><br>
+
+        Date of Birth: <input type="date"><br><br>
+
+        Upload File: <input type="file"><br><br>
+
+        Gender:
+        <input type="radio" name="g"> Male
+        <input type="radio" name="g"> Female<br><br>
+
+        Skills:
+        <input type="checkbox"> HTML
+        <input type="checkbox"> CSS
+        <input type="checkbox"> JavaScript<br><br>
+
+        Country:
+        <select>
+            <option>India</option>
+            <option>USA</option>
+            <option>Japan</option>
+        </select><br><br>
+
+        Address:<br>
+        <textarea rows="4" cols="30"></textarea><br><br>
+
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+
+    </form>
+
+  </body>
+</html>
