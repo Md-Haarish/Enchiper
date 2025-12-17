@@ -1,0 +1,108 @@
+.sec1{
+    color: white;
+     font-size: 20px; 
+    border: 1px solid rgb(42, 117, 198);
+    background-color: rgb(59, 99, 202);
+    text-align: center;
+    border-radius: 10px 10px 0px 0px;
+}
+.t1{
+    margin-left: 37%;
+    justify-content: right;
+   padding: 10px 10px 10px 10px; 
+    font-size:  20px;
+    margin-top: 20px   ;
+    margin-top: 50px;
+    border-radius: 30PX 30PX 0px 30px;
+    color: white;
+    background-color: rgb(0, 136, 255);
+}
+.t2{
+
+    text-align: left;
+   font-size:  20px;
+   padding: 10px 10px 10px 10px; 
+   margin-left: 10px;
+   border-radius: 30PX 30PX 30px 0px;
+   background-color: lightgray;
+   
+    
+}
+.t3{
+  
+    margin-left: 65%;
+    justify-content: right;
+    padding: 10px 10px 10px 10px; 
+    font-size:  20px;
+    border-radius: 30PX 30PX 0px 30px;
+    color: white;
+    background-color: rgb(0, 136, 255);
+}
+.t4{
+ 
+    margin-left: 65%;
+    justify-content: right;
+    padding: 10px 10px 10px 10px; 
+    font-size:  20px; 
+    border-radius: 30PX 30PX 0px 30px;
+    color: white;
+    background-color: rgb(0, 136, 255);
+}
+.t5{
+    margin-left: 62%;
+    justify-content: right;
+    padding: 10px 10px 10px 10px; 
+    font-size:  20px;
+    border-radius: 30PX 30PX 0px 30px;
+    margin-top: 50px;
+    color: white;
+    background-color: rgb(0, 136, 255);
+}
+.t6{
+    color: white;
+ 
+    background-color: blue;
+    justify-content: center;
+    font-size: 50px;
+    background-color:lightgray;
+    border-radius: 0px 0px 10px 10px;
+}
+.whole{
+    margin: 200px 600px 500px 500px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px black;
+}
+.inputbox{
+    width: 270px;
+  height: 50px;
+  border: none;
+  border-radius: 30px;
+  background: rgb(242, 242, 242);
+  margin-bottom: 15px;
+  margin-left: 10px;
+  padding: 0px;
+  font-size: 20px;
+  text-align: left;
+  color: rgb(95, 103, 107);
+  padding: 5px;
+    
+}
+button{
+
+    width: 80px;
+  height: 50px; 
+  margin-top: 10px;
+  border: none;
+  border-radius: 30px;
+  background:rgb(0, 136, 255);
+  color: white;
+  padding: 15px;
+  font-size: 20px;
+
+
+}
+body{
+    background-color: rgb(0, 136, 255);
+    font-family: sans-serif;
+}

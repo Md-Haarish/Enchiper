@@ -1,0 +1,62 @@
+.sec1{
+    margin: 200px 400px 500px 500px;
+    padding: 50px 50px 50px 50px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px grey;
+}
+.t1{
+    font-size: 40px;
+    color: rgb(56, 103, 245);
+    font-family: sans-serif;
+    margin-top: 10px;
+     text-align: center;
+}
+.inputbox{
+    font-size: 25px;
+    font-family: sans-serif;
+    margin-bottom: 20px;
+    border: 2px solid rgb(0, 64, 255) ;
+    border-radius: 5px;
+}
+.add{
+    font-size: 25px;
+    font-family: sans-serif;
+     background-color: rgb(14, 58, 191);
+    margin-left: 10px;
+    color:white;
+    border-radius: 5px;
+}
+.t4{
+    margin-left:200PX;
+    margin-bottom: 50px;
+    font-size: 20px;
+    font-family: sans-serif;
+    text-transform: capitalize;
+    color:grey
+}
+.rem{
+    margin-left:120PX;
+    margin-bottom: 20px;
+    font-size: 15px;
+    font-family: sans-serif;
+     background-color: rgb(251, 53, 53);
+    color:white;
+    border-radius: 5px;
+
+}
+.t5{
+     margin-left:200PX;
+    margin-bottom: 50px;
+    font-size: 20px;
+    font-family: sans-serif;
+    text-transform: capitalize;
+}   
+.line{
+    border-style: dotted;
+    
+}
+
+body{
+    background-color: rgb(223, 238, 243);
+}

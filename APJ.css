@@ -1,0 +1,36 @@
+.sec1{
+    color: white;
+    font-size: 50px;
+    border: 1px solid blue;
+    background-color: blue;
+    text-align: center;
+}
+.sec2{
+    background-color: white;
+    border: 1px solid white;
+    margin: 20px;
+    border-radius: 5px;
+    padding: 10px;
+
+}
+.sec3{
+    background-color: white;
+    border: 1px solid white;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 5px;
+
+}
+.sec4{
+    color: white;
+    font-size: 20px;
+    border: 1px solid blue;
+    background-color: blue;
+    text-align: center;
+
+}
+.whole{
+    background-color: lightgrey;
+    font-family: sans-serif;
+    border: 2px solid black;
+}
