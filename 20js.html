@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+
+<script>
+let n = prompt("Enter your name");
+alert(" Vanakam! " + n);
+
+
+
+
+    let name = prompt("Enter a number");
+        if (name % 2 == 0) alert("even");
+    else alert("odd");
+
+
+
+let a = prompt("age");
+alert(a >= 18 ? "major" : "minor");
+
+
+
+
+
+
+let s = 0;
+let l = prompt("limmit");
+for (let i = 1; i <= l; i++) s += i;
+alert("sum = " + s);
+
+
+
+let p = prompt("password");
+alert(p.length >= 4 ? "accept" : "not accept");
+
+
+
+
+let m = prompt("mark");
+if (m >=90) alert("A");
+else if (m >= 75) alert("B");
+else if (m >=50) alert("C");
+else alert("fail");
+
+
+
+let x = +prompt("1st");
+let y = +prompt("2nd");
+let z = +prompt("3rd");
+alert("Largest = " + (x > y && x > z ? x : y > z ? y : z));
+
+let user = prompt("Username");
+let pw = prompt("Password");
+alert(user == "admin" && pw == "123" ? "success" : "failed");
+
+
+
+let b = 0;
+let c = prompt("no");
+for (let i = 1; i <= c; i++)
+  if (i % 2 == 0) b++;
+alert("cout is even = " + b);
+
+
+
+/* 13. Simple Interest */
+let pr = prompt("price");
+let r= prompt("rate");
+let tym = prompt("tym");
+alert("sim intrest = " + (pr * r * tym) / 100);
+
+
+
+
+
+
+let g = prompt("guess theno");
+alert(g == 5 ? "Correct" : g > 5 ? "high" : "low");
+
+
+
+
+
+
+
+
+
+
+let f = prompt("factorial no");
+let fact = 1;
+for (let i = 1; i <= f; i++) fact *= i;
+
+alert("factorial: " + fact);
+
+let d = prompt("no");
+alert("digit: " + d.length);
+
+
+
+
+
+
+
+confirm("eexit?") ? alert("exiting") : alert("continue");
+
+
+
+
+</script>
+
+</body>
+</html>
