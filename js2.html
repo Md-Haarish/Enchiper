@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<script>
+    let a = Number(prompt("Enter hour"));
+    if (a >= 6 && a < 12) alert("Good Morning!");
+    else if (a >= 12 && a < 18) alert("Good Afternoon!");
+    else alert("Good Evening!");
+
+    let b = Number(prompt("Enter number"));
+    if (b > 0) alert("Positive");
+    else if (b < 0) alert("Negative");
+    else alert("Zero");
+
+    let c = Number(prompt("Total classes"));
+    let d = Number(prompt("Classes attended"));
+    alert((d / c) * 100 >= 75 ? "Eligible" : "Not Eligible");
+
+    let n = Number(prompt("Enter limit"));
+    let x = 0;
+    for (let i = 1; i <= n; i++) {
+        let y = Number(prompt("Enter number"));
+        if (y > x) x = y;
+    }
+    alert("Largest: " + x);
+
+    let t = Number(prompt("Enter temperature"));
+    let ch = prompt("1:F 2:C");
+    if (ch == "1") alert((t * 9/5 + 32).toFixed(2));
+    else if (ch == "2") alert(((t - 32) * 5/9).toFixed(2));
+    else alert("Invalid");
+
+    let s = prompt("Enter string");
+    let v = 0;
+    for (let k of s) if ("aeiouAEIOU".includes(k)) v++;
+    console.log("Vowels:", v);
+
+    
+
+    let p = Number(prompt("Enter a"));
+    let q = Number(prompt("Enter b"));
+    let r = Number(prompt("Enter c"));
+    alert("Smallest: " + Math.min(p, q, r));
+
+    let items = Number(prompt("Items"));
+    let price = Number(prompt("Price"));
+    console.log("Bill:", items * price);
+
+
+
+
+
+    let yr = Number(prompt("Enter year"));
+    alert((yr % 4 === 0 && yr % 100 !== 0) || yr % 400 === 0 ? "Leap Year" : "Not Leap Year");
+
+    let lim = Number(prompt("Enter limit"));
+    let odd = 0;
+    for (let i = 1; i <= lim; i++) if (i % 2 !== 0) odd++;
+    alert("Odd count: " + odd);
+
+    let w = prompt("Enter string");
+    let rev = w.split("").reverse().join("");
+    alert(w === rev ? "Palindrome" : "Not Palindrome");
+
+    let base = Number(prompt("Enter base"));
+    let exp = Number(prompt("Enter exponent"));
+    let res = 1;
+    for (let i = 1; i <= exp; i++) res *= base;
+    alert(res);
+
+    let m1 = Number(prompt("Mark 1"));
+    let m2 = Number(prompt("Mark 2"));
+    let m3 = Number(prompt("Mark 3"));
+    alert((m1 + m2 + m3) / 3 >= 60 ? "Pass" : "Fail");
+
+
+
+    let rup = Number(prompt("Enter rupees"));
+    alert((rup / 83).toFixed(2));
+
+    let z = Number(prompt("Enter number"));
+    let sum = 0;
+    while (z > 0) {
+        sum += z % 10;
+        z = Math.floor(z / 10);
+    }
+    
+
+    
+
+    let pass = "123";
+    let att = 0;
+    while (att < 3) {
+        let inp = prompt("Enter password");
+        if (inp === pass) {
+            alert("Success");
+            break;
+        }
+        att++;
+    }
+    if (att === 3) alert("Account Locked");
+</script>
+</body>
+</html>
