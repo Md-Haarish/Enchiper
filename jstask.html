@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>String Programs</title>
+</head>
+<body>
+
+<script>
+
+
+
+
+a = prompt("Username");
+alert(a.trim().toLowerCase());
+
+
+
+a = prompt("Email");
+alert(a.includes("@") && a.includes(".") ? "Valid" : "Invalid");
+
+
+
+a = prompt("Sentence");
+b = 0;
+for (c of a) if (c != " ") b++;
+alert(b);
+
+a = prompt("Paragraph");
+alert(a.trim().split(" ").length);
+
+
+a = prompt("String");
+alert(a[0] + " " + a[a.length - 1]);
+
+
+
+
+a = prompt("Sentence");
+b = prompt("Replace word");
+c = prompt("New word");
+alert(a.replace(b, c));
+
+
+a = prompt("Text");
+alert(a.length < 5 || a.length > 20 ? "Error" : "Accepted");
+
+a = prompt("String");
+b = 0;
+for (c of a) if (c >= 'A' && c <= 'Z') b++;
+alert(b);
+
+
+
+
+
+a = prompt("String");
+b = prompt("Starts with");
+c = prompt("Ends with");
+alert(a.startsWith(b) && a.endsWith(c));
+
+
+
+a = prompt("Sentence").split(" ");
+b = "";
+for (c of a) if (c.length > b.length) b = c;
+alert(b);
+
+
+a = prompt("Sentence").split(" ");
+for (b = 0; b < a.length; b++)
+  a[b] = a[b][0].toUpperCase() + a[b].slice(1);
+alert(a.join(" "));
+
+
+a = prompt("Mobile number");
+alert("******" + a.slice(-4));
+
+a = prompt("String");
+b = "";
+for (c = 0; c < a.length; c++)
+  if (a.indexOf(a[c]) != a.lastIndexOf(a[c]) && !b.includes(a[c]))
+    b += a[c] + " ";
+alert(b);
+
+
+a = prompt("String").toLowerCase();
+b = 0; c = 0;
+for (let d of a)
+  if ("aeiou".includes(d)) b++;
+  else if (d >= 'a' && d <= 'z') c++;
+alert(b + " " + c);
+
+
+
+
+
+a = prompt("Sentence").split(" ");
+b = [];
+for (c of a) if (!b.includes(c)) b.push(c);
+alert(b.join(" "));
+
+
+
+
+a = prompt("First word").split("").sort().join("");
+b = prompt("Second word").split("").sort().join("");
+alert(a == b ? "Anagram" : "Not Anagram");
+
+
+a = prompt("First string").trim();
+b = prompt("Second string").trim();
+alert(a == b);
+
+
+
+a = prompt("Mixed string");
+b = "";
+for (c of a) if (c >= '0' && c <= '9') b += c;
+alert(b);
+
+
+a = prompt("Password");
+alert(a.length >= 6 && /\d/.test(a) && /[A-Z]/.test(a) ? "Strong" : "Weak");
+
+
+</script>
+
+</body>
+</html>
